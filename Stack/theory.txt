@@ -1,0 +1,50 @@
+Stacks
+
+1.what-> it is a linear data structure which stores data in LIFO/FILO order.
+
+2.popular operations:-
+1. Push->pushes an element at the top of the stack.     (Primary operation)
+2. Pop-> delete an element from the top of the stack.    (Primary Operation)
+3. Peek/top-> prints an element which is at the top of the stack.  (Auxiliary operation)
+4. IsEmpty-> return true is stack is empty otherwise false.    (Auxiliary operation)
+5. Size->returns the size of the stack.     (Auxiliary operation)
+6. isFull->return true if stack is full otherwise false.   (Auxiliary operation)
+
+3.Advantages:-
+1. Can be easily implemented through Arrays,Linked List etc..
+2. Efficient memory Utilization because it uses contiguous block of memory.
+3. Fast Access Time->you can access top element in constant time.
+4. Helps in Function calls.
+5. Enables Undo/Redo operations.
+6. Helps in implementing Backtracking algorithms.
+
+4.DisAdvantages:-
+1. Limited Capacity
+2. No Random Access.
+3. Not suitable for sorting/searching as it requires middle element every time.
+4. Overflow and Underflow issue.
+5. Recursive Function calls limitations.
+
+5.Applications:-
+1. Graph traversals->DFS
+2. Function calls & recursion.
+3. Undo/Redo operation.
+4. Expression Evaluation 
+5. Browser History.
+6. Balanced Parentheses. 
+
+6.Real Life Applications:-
+1. Stack of plates in a buffet system.
+2. Photos saved in gallery.
+3. Call logs.
+4. Youtube Downloads/Notifications.
+
+7.Types of stacks:-
+1. Register Stack->memory  size is less.
+2. Memory Stack->memory size is large.
+
+8.Can be Implemented By->
+1. Arrays
+2. Linked List
+3. Queue
+
